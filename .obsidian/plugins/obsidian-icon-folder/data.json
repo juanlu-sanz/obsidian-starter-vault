@@ -6,10 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbBank",
+      "SiApachekafka",
       "FarNoteSticky",
       "📔",
-      "📇",
-      "FarNote-sticky"
+      "📇"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -19,5 +20,7 @@
       "bottom": 0,
       "left": 0
     }
-  }
+  },
+  "Customers/Confluent": "SiApachekafka",
+  "Customers/ING": "IbBank"
 }
