@@ -1,8 +1,7 @@
 ---
 <%* 
-    let personName = await tp.system.prompt("Please enter person name")
-	const customers = Object.values(Object.values(app.vault.fileMap).find(f => f.path === 'Customers').children).map(f => f.name)
-	const customerName = await tp.system.suggester(customers, customers);
+    let personName = await tp.system.prompt("Please enter person name");
+	const customerName = await tp.user.selectChildrenFromPath("Customers", tp);
 	let folderName = "Customers/" + customerName + "/People";
 	if (!this.app.vault.getAbstractFileByPath(folderName)) {
 		await this.app.vault.createFolder(folderName);

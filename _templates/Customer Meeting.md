@@ -1,12 +1,7 @@
 ---
 <%* 
-	console.log('here')
-	const customers = Object.values(Object.values(app.vault.fileMap).find(f => f.path === 'Customers').children).map(f => f.name)
-	const customerName = await tp.system.suggester(customers, customers);
-	console.log(customerName)
-	const projects = Object.values(Object.values(app.vault.fileMap).find(f => f.path === "Customers/" + customerName + "/Projects").children).map(f => f.name)
-	console.log(projects)
-	const projectName = await tp.system.suggester(projects, projects);
+	const customerName = await tp.user.selectChildrenFromPath("Customers", tp);
+	const projectName = await tp.user.selectChildrenFromPath("Customers/" + customerName + "/Projects", tp);
 	let meetingTopic = await tp.system.prompt("Please enter meeting topic")
 	let folderName = "Customers/" + customerName + "/Projects/" + projectName + "/Meetings";
 	if (!this.app.vault.getAbstractFileByPath(folderName)) {

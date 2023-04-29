@@ -11,12 +11,8 @@
             "id": "8f66f149b95fce84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/Customer Meeting.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/Customer Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/Customer Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_templates/Customer Meeting.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,10 +149,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f66f149b95fce84",
+  "active": "ccd1dcf2b4070b55",
   "lastOpenFiles": [
-    "_templates/Customer Project.md",
+    "_templates/Customer Meeting.md",
+    "_templates/Customer Index.md",
     "_templates/Customer Person.md",
+    "_templates/Customer Project.md",
+    "Customers/Confluent/People/asdf.md",
+    "Untitled.md",
+    "Scripts/selectChildrenFromPath.js",
+    "Customers/Confluent/People/Me.md",
+    "Scripts/getChildrenFromPath.js",
+    "Scripts",
     "Customers/Confluent/Projects/KSQL/KSQL.md",
     "Customers/Confluent/Projects/KSQL/Meetings/2023-04-29-Deprecate.md",
     "Customers/Confluent/Confluent.md",
@@ -169,20 +169,15 @@
     "Customers/Confluent/Projects/KSQL",
     "Customers/Confluent/Projects",
     "Customers/Confluent/People",
-    "_templates/Customer Meeting.md",
     "Customers/ING/Projects/ICHPv2/ICHPv2.md",
     "Customers/ING/Projects/ICHPv2",
     "Customers/ING/Projects",
     "Customers/ING/ING.md",
     "Customers/Confluent",
-    "Customers/ING",
-    "Customers",
     "Customers/Confluent/People/Oscar.md",
-    "Customers/Confluent/Projects/Ksql",
     "Customers/Confluent/Projects/Ksql/Ksql.md",
     "Customers/Confluent/People/Oscar Gomez Soriano.md",
     "Customers/null/Projects/null/Meetings/2023-04-29-null.md",
-    "_templates/Customer Index.md",
     "Customers/ING/People/Oscar Gomez Soriano.md",
     "Customers/ING/Projects/IPC/IPC.md",
     "Customers/null/Projects/null/null.md",
@@ -191,7 +186,6 @@
     "Customers/null/Peoples/ING.md",
     "Customers/ICHPv2/Projects/null/null.md",
     "_templates/Zettelkasten.md",
-    "_templates/Worknote.md",
-    "Zettelkasten/Why I eat chicken.md"
+    "_templates/Worknote.md"
   ]
 }
