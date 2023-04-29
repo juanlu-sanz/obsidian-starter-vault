@@ -1,7 +1,12 @@
 ---
 <%* 
-	let customerName = await tp.system.prompt("Please enter customer name");
-	let projectName = await tp.system.prompt("Please enter project name");
+	console.log('here')
+	const customers = Object.values(Object.values(app.vault.fileMap).find(f => f.path === 'Customers').children).map(f => f.name)
+	const customerName = await tp.system.suggester(customers, customers);
+	console.log(customerName)
+	const projects = Object.values(Object.values(app.vault.fileMap).find(f => f.path === "Customers/" + customerName + "/Projects").children).map(f => f.name)
+	console.log(projects)
+	const projectName = await tp.system.suggester(projects, projects);
 	let meetingTopic = await tp.system.prompt("Please enter meeting topic")
 	let folderName = "Customers/" + customerName + "/Projects/" + projectName + "/Meetings";
 	if (!this.app.vault.getAbstractFileByPath(folderName)) {
@@ -19,7 +24,7 @@
 customer: <% customerName %>
 project: <% projectName %>
 date: <% tp.date.now("YYYY-MM-DD") %>
-tags: 
+tags:
 - meeting/customer
 ---
 

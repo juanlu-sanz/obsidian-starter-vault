@@ -1,6 +1,6 @@
 ---
 <%* 
-	const customers = Object.values(Object.values(app.vault.fileMap).find(f => f.name === 'Customers').children).map(f => f.name)
+	const customers = Object.values(Object.values(app.vault.fileMap).find(f => f.path === 'Customers').children).map(f => f.name)
 	const customerName = await tp.system.suggester(customers, customers);
 	let projectName = await tp.system.prompt("Please enter project name");
 	let folderName = "Customers/" + customerName + "/Projects/" + projectName;

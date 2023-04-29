@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c4fedfd97d5a4748",
+        "id": "b8134a75e51e0956",
         "type": "tabs",
         "children": [
           {
-            "id": "1ff49fd79b4f7ccf",
+            "id": "8f66f149b95fce84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Customers/Confluent/Projects/Ksql/Ksql.md",
+                "file": "_templates/Customer Meeting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Customers/Confluent/Projects/Ksql/Ksql.md",
+                "file": "_templates/Customer Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Customers/Confluent/Projects/Ksql/Ksql.md",
+                "file": "_templates/Customer Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Customers/Confluent/Projects/Ksql/Ksql.md"
+                "file": "_templates/Customer Meeting.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,42 +157,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1ff49fd79b4f7ccf",
+  "active": "8f66f149b95fce84",
   "lastOpenFiles": [
-    "Customers/Confluent/People/Oscar.md",
-    "Customers/Confluent/Projects/Ksql",
-    "Customers/Confluent/Projects",
-    "Customers/Confluent/Projects/Ksql/Ksql.md",
-    "Customers/Confluent/People",
-    "Customers/Confluent/Projects/KSQL/KSQL.md",
-    "Customers/Confluent/People/Oscar Gomez Soriano.md",
-    "Customers/Confluent/Projects/KSQL",
-    "Customers/null/Projects/null/Meetings/2023-04-29-null.md",
-    "Customers/null/Projects/null/Meetings",
-    "Customers/null/Projects/null",
-    "Customers/null/Projects",
-    "Customers/null",
-    "Customers/Confluent/Confluent.md",
-    "_templates/Customer Index.md",
-    "Customers/Confluent",
     "_templates/Customer Project.md",
-    "Customers/ING/People/Oscar Gomez Soriano.md",
     "_templates/Customer Person.md",
-    "Customers/ING/Projects/IPC/IPC.md",
-    "Customers/ING/Projects/IPC",
-    "Customers/null/Projects/null/null.md",
+    "Customers/Confluent/Projects/KSQL/KSQL.md",
+    "Customers/Confluent/Projects/KSQL/Meetings/2023-04-29-Deprecate.md",
+    "Customers/Confluent/Confluent.md",
+    "Customers/Confluent/Projects/KSQL/Meetings",
+    "Customers/Confluent/People/John Dow.md",
+    "Customers/Confluent/Projects/KSQL",
+    "Customers/Confluent/Projects",
+    "Customers/Confluent/People",
     "_templates/Customer Meeting.md",
     "Customers/ING/Projects/ICHPv2/ICHPv2.md",
+    "Customers/ING/Projects/ICHPv2",
+    "Customers/ING/Projects",
     "Customers/ING/ING.md",
+    "Customers/Confluent",
+    "Customers/ING",
+    "Customers",
+    "Customers/Confluent/People/Oscar.md",
+    "Customers/Confluent/Projects/Ksql",
+    "Customers/Confluent/Projects/Ksql/Ksql.md",
+    "Customers/Confluent/People/Oscar Gomez Soriano.md",
+    "Customers/null/Projects/null/Meetings/2023-04-29-null.md",
+    "_templates/Customer Index.md",
+    "Customers/ING/People/Oscar Gomez Soriano.md",
+    "Customers/ING/Projects/IPC/IPC.md",
+    "Customers/null/Projects/null/null.md",
     "Customers/ING/Projects/ICHPv2/Meetings/2023-04-29-Crashing of ICHPv2 on Openshift.md",
     "Customers/ING/People/Jose Antonio Herrero.md",
     "Customers/null/Peoples/ING.md",
     "Customers/ICHPv2/Projects/null/null.md",
     "_templates/Zettelkasten.md",
     "_templates/Worknote.md",
-    "Zettelkasten/Why I eat chicken.md",
-    "Zettelkasten/My test.md",
-    "Zettelkasten/k8s cluster.md",
-    "Zettelkasten/asdf.md"
+    "Zettelkasten/Why I eat chicken.md"
   ]
 }
