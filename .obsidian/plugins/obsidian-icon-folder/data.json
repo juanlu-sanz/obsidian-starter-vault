@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "IbBank",
-      "SiApachekafka",
+      "Fas7",
       "FarNoteSticky",
-      "📔",
-      "📇"
+      "RiLink",
+      "RiSuitcaseLine",
+      "FasGear"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,5 +22,10 @@
     }
   },
   "Customers/Confluent": "SiApachekafka",
-  "Customers/ING": "IbBank"
+  "Customers/ING": "IbBank",
+  "Projects": "FasGear",
+  "Customers": "RiSuitcaseLine",
+  "References": "RiLink",
+  "Zettelkasten": "FarNoteSticky",
+  "Weekly": "Fas7"
 }
