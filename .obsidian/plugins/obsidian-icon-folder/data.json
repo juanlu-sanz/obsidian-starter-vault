@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiStickyNoteLine",
       "Fas7",
       "FarNoteSticky",
       "RiLink",
-      "RiSuitcaseLine",
-      "FasGear"
+      "RiSuitcaseLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,6 +26,6 @@
   "Projects": "FasGear",
   "Customers": "RiSuitcaseLine",
   "References": "RiLink",
-  "Zettelkasten": "FarNoteSticky",
+  "Zettelkasten": "RiStickyNoteLine",
   "Weekly": "Fas7"
 }

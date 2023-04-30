@@ -1,6 +1,7 @@
 {
   "hidden": false,
   "hiddenList": [
-    "_templates"
+    "_templates",
+    "_scripts"
   ]
 }
